@@ -35,7 +35,7 @@ const Nav = () => {
           <ul>
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className='font-montserrat leading-normal text-lg active:text-coral-red leading-8'>
+                <a href={link.href} className='font-montserrat text-lg active:text-coral-red leading-8'>
                   {link.label}
                 </a>
               </li>

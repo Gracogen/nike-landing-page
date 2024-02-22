@@ -15,7 +15,7 @@ const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
         <p className="text-coral-red font-montserrat text-xl">Our Summer Collections</p>
         {/* max-sm:leading-[82]  */}
         <h1 className="font-palanquin mt-10 text-8xl mx-sm:text-[72px] font-bold">
-          <span className="xl:bg-white xl:whitespace-nowrap relative pr-10 z-10">The New Arrival</span>
+          <span className="xl:bg-white xl:whitespace-nowrap relative pr-10 max-wide:z-0 z-10">The New Arrival</span>
           <br />
           <span className="text-coral-red inline-block mt-3">Nike </span>Shoes
         </h1>

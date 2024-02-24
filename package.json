@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "netlify-cli": "^17.17.0",
+    "nike": "^0.0.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

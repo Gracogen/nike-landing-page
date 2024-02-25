@@ -15,9 +15,9 @@ const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
         <p className="text-coral-red font-montserrat text-xl">Our Summer Collections</p>
         {/* max-sm:leading-[82]  */}
         <h1 className="font-palanquin mt-10 text-8xl mx-sm:text-[72px] font-bold">
-          <span className="xl:bg-white xl:whitespace-nowrap relative pr-10 max-wide:z-0 z-10">The New Arrival</span>
+          <span className="xl:bg-white xl:whitespace-nowrap relative pr-10 max-wide:z-2 z-10">The New Arrival</span>
           <br />
-          <span className="text-coral-red inline-block mt-3">Nike </span>Shoes
+          <span className="text-coral-red inline-block mt-3">Nike </span> Shoes
         </h1>
         <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Discover stylish Nike arrivals, quality, comfort, innovation for your active life.</p>
         <Button label=" Shop Now" iconURL={arrowRight} />
@@ -34,7 +34,7 @@ const [bigShoeImg, setBigShoeImg] = useState(bigShoe1)
         </div>
 
       </div>
-      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-hero bg-center">
+      <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-hero z-1 bg-center">
         <img src={bigShoeImg} 
         alt="Shoe Collection" width={310} height={500} className="object-contain relative z-10 " />
 
